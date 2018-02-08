@@ -1,5 +1,4 @@
 # Created by .ignore support plugin (hsz.mobi)
-.gitignore
 .idea/compiler.xml
 .idea/encodings.xml
 .idea/inspectionProfiles/
@@ -7,4 +6,5 @@
 .idea/modules.xml
 .idea/workspace.xml
 DesignPatterns.iml
+pattern-strategy/pattern-strategy.iml
 
