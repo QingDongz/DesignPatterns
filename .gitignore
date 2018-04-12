@@ -8,3 +8,18 @@
 DesignPatterns.iml
 pattern-strategy/pattern-strategy.iml
 
+pattern-observer/target/
+pattern-strategy/src/test/
+pattern-agency/src/test/
+pattern-agency/target/
+pattern-decorator/src/test/
+pattern-decorator/target/
+pattern-factory/src/test/
+pattern-factory/target/
+pattern-iterator/src/test/
+pattern-iterator/target/
+pattern-mvc/src/test/
+pattern-mvc/target/
+pattern-order/src/test/
+pattern-order/target/
+pattern-singleton/target/
