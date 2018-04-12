@@ -1,12 +1,7 @@
 # Created by .ignore support plugin (hsz.mobi)
-.idea/compiler.xml
-.idea/encodings.xml
-.idea/inspectionProfiles/
-.idea/misc.xml
-.idea/modules.xml
-.idea/workspace.xml
-DesignPatterns.iml
-pattern-strategy/pattern-strategy.iml
+.idea/
+
+*.iml
 
 pattern-observer/target/
 pattern-strategy/src/test/
