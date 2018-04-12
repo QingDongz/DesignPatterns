@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="weatherDate" class="cn.summerwaves.sample.WeatherData"/>
+
+    <bean id="currentConditionDisplay" class="cn.summerwaves.sample.CurrentConditionDisplay">
+        <constructor-arg ref="weatherDate"/>
+    </bean>
+
+    <bean class="cn.summerwaves.sample.HeatIndex">
+        <constructor-arg ref="weatherDate"/>
+    </bean>
+
+</beans>
